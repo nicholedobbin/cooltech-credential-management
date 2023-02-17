@@ -18,7 +18,7 @@ CoolTech's database consists of two collections:
     * Most employees are only part of one OU and one Division within it, but there are some that are part of more than one OU and Division, based on their role in the company. 
 
 2. **users**
-    * This collectioncontains the list of users (i.e. employees) in the company, with their username, password and role.
+    * This collection contains the list of users (i.e. employees) in the company, with their username, password and role.
     * There are three types of user roles:
         1. Normal Users: 
             - can read the Credential Repository for the Division they're assigned to.
@@ -58,7 +58,7 @@ The [App.js](/server/client/src/App.js) file and [components](/server/client/src
 6. This should open the React app in your browser automatically. You can also navigate to http://localhost:3000/
 
 **Note:**
-This app uses *.env* files to protect sensitive data. You'll need to set up and create your own connections and JWT in your MongoDB database and replace the ones in this project with your own.
+This app uses an *.env* file to protect sensitive data. You'll need to set up and create your own connections and JWT in your MongoDB database and replace the ones in this project with your own.
 <hr>
 
 ## **How To Use**
