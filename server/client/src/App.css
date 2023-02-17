@@ -1,0 +1,79 @@
+
+/* ----------- Multiple components ----------- */
+/* Set App component's text alignment. */
+.App {
+  text-align: center;
+}
+
+/* Change background colour of lists in all tabs (OuCard and UsersCard components). */
+.tabs .li {
+  background-color: #dee2e6;
+}
+
+/* Set all table's to have small font size (OuCard and UsersCard components). */
+.ouTable, .usersTable {
+  font-size: x-small;
+}
+
+/* Ensure all tables fit inside  their divs/cards (OuCard and UsersCard components). */
+.ouTable td, .usersTable td {
+  word-break: break-word;
+}
+
+/* Make font size smaller in AddRepoForm and EditRepoForm components' form divs. */
+.addRepoForm, .editRepoForm {
+  font-size: smaller;
+}
+
+/* ----------- OuCard ----------- */
+/* Make font size smaller in OuCard component's divisionsList. */
+.divisionsList {
+  font-size: smaller;
+}
+
+/* ----------- Login ---------- */
+/* Style LoginForm components form div. */
+.loginForm {
+  border: 1px solid black;
+  border-radius: 10px;
+  border-color: #dee2e6;
+
+}
+
+/* ----------- UsersCard ----------- */
+/* Set font colour for instructions in UsersCard component's forms. */
+.manageUserFormInstructions {
+  color:  rgba(0, 0, 0, 0.55);
+}
+
+
+/* ----------- Navbar ----------- */
+/* Style navbar brand (i.e. company name). */
+.navBarBrand {
+  color: rgba(0, 0, 0, 0.9);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Style navbar text. */
+.navBarText {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+}
+
+/* Set navbar text hover colour. */
+.navBarText:hover {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ----------- Error/ Success Message Buttons ----------- */
+/* Set closeMessageButton style and colour. */
+.closeMessageButton {
+  text-decoration: none;
+  font-size: x-small;
+}
+/* Set closeMessageButton hover styles. */
+.closeMessageButton:hover {
+  text-decoration: underline;
+  color: #0D6DFD;
+}
