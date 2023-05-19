@@ -72,6 +72,10 @@ This app uses an *.env* file to protect sensitive data. You'll need to set up an
     - change user roles in the Manage Users tab, by completing the form in the dropdown menu.
     - assign users to OUs and Divisions in the Manage Users tab, by completing the form in the dropdown menu.
 
+
+## **Example of dashboard for admin role**
+![Admin role's dashboard](markdown/MERN%20Stack%20Web%20App%20for%20Credential%20Management.png)
+
 <hr>
 
 ## **Credit and References**
